@@ -1,4 +1,4 @@
 <resources>
-    <string name="test %s">test</string>
+    <string name="test">test %s</string>
     <string name="test1">test</string>
 </resources>
