@@ -13,13 +13,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>%d секунд</string>
+			<string>%li секунд</string>
 			<key>one</key>
-			<string>%d секунда</string>
+			<string>%li секунда</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
-			<string>%d секунды</string>
+			<string>%li секунды</string>
+			<key>many</key>
+			<string></string>
 			<key>other</key>
-			<string>%d секунд</string>
+			<string>%li секунд</string>
 		</dict>
 	</dict>
 	<key>hours_plural</key>
@@ -36,6 +40,8 @@
 			<string>часов</string>
 			<key>one</key>
 			<string>час</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
 			<string>часа</string>
 			<key>many</key>
@@ -55,13 +61,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>%d минут</string>
+			<string>%li минут</string>
 			<key>one</key>
-			<string>%d минута</string>
+			<string>%li минута</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
-			<string>%d минуты</string>
+			<string>%li минуты</string>
+			<key>many</key>
+			<string></string>
 			<key>other</key>
-			<string>%d минут</string>
+			<string>%li минут</string>
 		</dict>
 	</dict>
 	<key>day_plural</key>
@@ -78,6 +88,8 @@
 			<string>дней</string>
 			<key>one</key>
 			<string>день</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
 			<string>дня</string>
 			<key>many</key>
@@ -100,6 +112,8 @@
 			<string>недель</string>
 			<key>one</key>
 			<string>неделю</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
 			<string>недели</string>
 			<key>many</key>
@@ -122,6 +136,8 @@
 			<string>месяцев</string>
 			<key>one</key>
 			<string>месяц</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
 			<string>месяца</string>
 			<key>many</key>
@@ -144,6 +160,8 @@
 			<string>лет</string>
 			<key>one</key>
 			<string>год</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
 			<string>года</string>
 			<key>many</key>
@@ -163,13 +181,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>%d напоминаний</string>
+			<string>%li напоминаний</string>
 			<key>one</key>
-			<string>%d напоминание</string>
+			<string>%li напоминание</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
-			<string>%d напоминания</string>
+			<string>%li напоминания</string>
+			<key>many</key>
+			<string></string>
 			<key>other</key>
-			<string>%d напоминаний</string>
+			<string>%li напоминаний</string>
 		</dict>
 	</dict>
 	<key>in_minutes_count</key>
@@ -183,13 +205,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>%d минут</string>
+			<string>%li минут</string>
 			<key>one</key>
-			<string>%d минуту</string>
+			<string>%li минуту</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
-			<string>%d минуты</string>
+			<string>%li минуты</string>
+			<key>many</key>
+			<string></string>
 			<key>other</key>
-			<string>%d минут</string>
+			<string>%li минут</string>
 		</dict>
 	</dict>
 	<key>removed_count_channels</key>
@@ -205,11 +231,15 @@
 			<key>zero</key>
 			<string>Ничего не удалено</string>
 			<key>one</key>
-			<string>Вы удалили %d канал</string>
+			<string>Вы удалили %li канал</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
-			<string>Вы удалили %d канала</string>
+			<string>Вы удалили %li канала</string>
+			<key>many</key>
+			<string></string>
 			<key>other</key>
-			<string>Вы удалили %d каналов</string>
+			<string>Вы удалили %li каналов</string>
 		</dict>
 	</dict>
 	<key>remove_count_channels</key>
@@ -225,11 +255,15 @@
 			<key>zero</key>
 			<string>Нет каналов для удаления</string>
 			<key>one</key>
-			<string>Удалить %d канал</string>
+			<string>Удалить %li канал</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
-			<string>Удалить %d канала</string>
+			<string>Удалить %li канала</string>
+			<key>many</key>
+			<string></string>
 			<key>other</key>
-			<string>Удалить %d каналов</string>
+			<string>Удалить %li каналов</string>
 		</dict>
 	</dict>
 	<key>removed_count_films</key>
@@ -245,11 +279,15 @@
 			<key>zero</key>
 			<string>Ничего не удалено</string>
 			<key>one</key>
-			<string>Вы удалили %d фильм</string>
+			<string>Вы удалили %li фильм</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
-			<string>Вы удалили %d фильма</string>
+			<string>Вы удалили %li фильма</string>
+			<key>many</key>
+			<string></string>
 			<key>other</key>
-			<string>Вы удалили %d фильмов</string>
+			<string>Вы удалили %li фильмов</string>
 		</dict>
 	</dict>
 	<key>remove_count_films</key>
@@ -265,11 +303,15 @@
 			<key>zero</key>
 			<string>Нет фильмов для удаления</string>
 			<key>one</key>
-			<string>Удалить %d фильм</string>
+			<string>Удалить %li фильм</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
-			<string>Удалить %d фильма</string>
+			<string>Удалить %li фильма</string>
+			<key>many</key>
+			<string></string>
 			<key>other</key>
-			<string>Удалить %d фильмов</string>
+			<string>Удалить %li фильмов</string>
 		</dict>
 	</dict>
 	<key>removed_count_serials</key>
@@ -285,11 +327,15 @@
 			<key>zero</key>
 			<string>Ничего не удалено</string>
 			<key>one</key>
-			<string>Вы удалили %d сериал</string>
+			<string>Вы удалили %li сериал</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
-			<string>Вы удалили %d сериала</string>
+			<string>Вы удалили %li сериала</string>
+			<key>many</key>
+			<string></string>
 			<key>other</key>
-			<string>Вы удалили %d сериалов</string>
+			<string>Вы удалили %li сериалов</string>
 		</dict>
 	</dict>
 	<key>remove_count_serials</key>
@@ -305,11 +351,15 @@
 			<key>zero</key>
 			<string>Нет сериалов для удаления</string>
 			<key>one</key>
-			<string>Удалить %d сериал</string>
+			<string>Удалить %li сериал</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
-			<string>Удалить %d сериала</string>
+			<string>Удалить %li сериала</string>
+			<key>many</key>
+			<string></string>
 			<key>other</key>
-			<string>Удалить %d сериалов</string>
+			<string>Удалить %li сериалов</string>
 		</dict>
 	</dict>
 	<key>removed_count_films_and_serials</key>
@@ -325,11 +375,15 @@
 			<key>zero</key>
 			<string>Ничего не удалено</string>
 			<key>one</key>
-			<string>Вы удалили %d фильм или сериал</string>
+			<string>Вы удалили %li фильм или сериал</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
-			<string>Вы удалили %d фильма и сериала</string>
+			<string>Вы удалили %li фильма и сериала</string>
+			<key>many</key>
+			<string></string>
 			<key>other</key>
-			<string>Вы удалили %d фильмов и сериалов</string>
+			<string>Вы удалили %li фильмов и сериалов</string>
 		</dict>
 	</dict>
 	<key>remove_count_films_and_serials</key>
@@ -345,11 +399,15 @@
 			<key>zero</key>
 			<string>Нет сериалов для удаления</string>
 			<key>one</key>
-			<string>Удалить %d фильм или сериал</string>
+			<string>Удалить %li фильм или сериал</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
-			<string>Удалить %d фильма и сериала</string>
+			<string>Удалить %li фильма и сериала</string>
+			<key>many</key>
+			<string></string>
 			<key>other</key>
-			<string>Удалить %d фильмов и сериалов</string>
+			<string>Удалить %li фильмов и сериалов</string>
 		</dict>
 	</dict>
 	<key>remove_count_reminders</key>
@@ -365,11 +423,15 @@
 			<key>zero</key>
 			<string>Выберите напоминания для удаления</string>
 			<key>one</key>
-			<string>Удалить %d напоминание</string>
+			<string>Удалить %li напоминание</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
-			<string>Удалить %d напоминания</string>
+			<string>Удалить %li напоминания</string>
+			<key>many</key>
+			<string></string>
 			<key>other</key>
-			<string>Удалить %d напоминаний</string>
+			<string>Удалить %li напоминаний</string>
 		</dict>
 	</dict>
 	<key>left_symbols_count</key>
@@ -383,13 +445,17 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>zero</key>
-			<string>Осталось %d символов</string>
+			<string>Осталось %li символов</string>
 			<key>one</key>
-			<string>Осталось %d символ</string>
+			<string>Осталось %li символ</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
-			<string>Осталось %d символа</string>
+			<string>Осталось %li символа</string>
+			<key>many</key>
+			<string></string>
 			<key>other</key>
-			<string>Осталось %d символов</string>
+			<string>Осталось %li символов</string>
 		</dict>
 	</dict>
 	<key>serials_count</key>
@@ -405,11 +471,15 @@
 			<key>zero</key>
 			<string>сериалов</string>
 			<key>one</key>
-			<string>%d сериал</string>
+			<string>%li сериал</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
-			<string>%d сериала</string>
+			<string>%li сериала</string>
+			<key>many</key>
+			<string></string>
 			<key>other</key>
-			<string>%d сериалов</string>
+			<string>%li сериалов</string>
 		</dict>
 	</dict>
 	<key>films_count</key>
@@ -425,11 +495,15 @@
 			<key>zero</key>
 			<string>фильмов</string>
 			<key>one</key>
-			<string>%d фильм</string>
+			<string>%li фильм</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
-			<string>%d фильма</string>
+			<string>%li фильма</string>
+			<key>many</key>
+			<string></string>
 			<key>other</key>
-			<string>%d фильмов</string>
+			<string>%li фильмов</string>
 		</dict>
 	</dict>
 	<key>channels_count</key>
@@ -445,11 +519,15 @@
 			<key>zero</key>
 			<string>каналов</string>
 			<key>one</key>
-			<string>%d канал</string>
+			<string>%li канал</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
-			<string>%d канала</string>
+			<string>%li канала</string>
+			<key>many</key>
+			<string></string>
 			<key>other</key>
-			<string>%d каналов</string>
+			<string>%li каналов</string>
 		</dict>
 	</dict>
 	<key>left_plural</key>
@@ -466,6 +544,8 @@
 			<string>осталось</string>
 			<key>one</key>
 			<string>остался</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
 			<string>осталось</string>
 			<key>many</key>
@@ -488,6 +568,8 @@
 			<string>бесплатных</string>
 			<key>one</key>
 			<string>бесплатный</string>
+			<key>two</key>
+			<string></string>
 			<key>few</key>
 			<string>бесплатных</string>
 			<key>many</key>
