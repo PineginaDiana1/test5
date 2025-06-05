@@ -1,10 +1,10 @@
  <resources>
-   <string name="test">test1</string>
-   <string name="test1">test</string>
-   <string name="test2">test1</string>
+   <string name="test">test11111</string>
+   <string name="test1">test1111</string>
+   <string name="test2">test11111</string>
    <string-array name="test2">
-     <item>тест</item>
+     <item>тест1111</item>
    </string-array>
-   <string name="test3">тестр</string>
-   <string name="test4">тестр</string>
+   <string name="test3">тестр1111</string>
+   <string name="test4">тестр1111</string>
  </resources>
