@@ -1,11 +1,11 @@
 {
     "test1": {
-        "one": "test",
+        "one": "test1",
         "other": "test"
     },
     "test2": {
-        "one": "test",
-        "other": "test"
+        "one": "test1",
+        "other": "test1"
     },
     "test3": {
         "one": "test",
