@@ -1,6 +1,8 @@
  <resources>
+   <string name="test">significance</string>
+   <string name="test1">my name is Diane</string>
    <string name="test2">test</string>
    <string name="test3">test</string>
    <string name="test4">test</string>
-   <string name="test5">test</string>
+   <string name="test5">testееее</string>
  </resources>
